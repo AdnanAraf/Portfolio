@@ -1,0 +1,627 @@
+*{
+    margin: 0;
+    padding:0;
+}
+header{
+    background-color: #FFF8F3;
+    height: 700px;
+    padding: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+.head h1{
+    font-size:40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.head span{
+    color:orangered;
+}
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 15rem;
+}
+
+.navbar ul li{
+    list-style-type:none;
+    margin: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-family: 'poppins';
+    color:gray;
+}
+.navbar ul li a button{
+    height: 50px;
+    width: 100px;
+    margin-top:-1rem;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #FD6E0A;
+    border: none;
+    color:white;
+    font-family: 'poppins';
+}
+
+
+/****************************Middle***********************************/
+.middle{
+    display: flex;
+    position: relative;
+}
+.name {
+    position: relative;
+    margin-top: 10rem;
+    margin-left: 5rem;
+}
+
+.name h2{
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 70px;
+}
+.name span{
+    letter-spacing: 10px;
+    font-family: sans-serif;
+}
+.name h1{
+    font-size: 90px;
+    font-family:sans-serif;
+}
+.name p{
+    position: absolute;
+    top:190px;
+    font-size: 18px;
+    font-family: 'poppins';
+    width: 585px;
+    color: #757575;
+}
+.button{
+    display: flex;
+    margin: 90px 90px;
+    gap: 20px;
+
+  
+}
+.CV{
+    height: 60px;
+    width: 180px;
+    border-radius:10px ;
+    background-color:rgba(255, 68, 0, 0.718);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+ .contract{
+    height: 60px;
+    width: 180px;
+    border: 1px solid orangered;
+    font-size: 20px;
+    border-radius:10px ;
+}
+.color img{
+position: absolute;
+right: 1px;
+width: 836px;
+height: 470px;
+top:100px;
+}
+
+/************************************************ABOUT ME*************************************************/
+
+.about{
+    position: relative;
+}
+
+.background{
+position: absolute;
+width: 1140px;
+height: 550px;
+left: 230px;
+top: 130px;
+background: #FFF8F3;
+border-radius: 10px;
+}
+.title h1{
+position: absolute;
+width: 169px;
+height: 48px;
+left: 485px;
+top: 131px;
+font-family:'poppins';
+font-size: 30px;
+text-align: center;
+color: #181818;
+}
+.title p{
+    position: absolute;
+width: 827px;
+height: 120px;
+left:156px;
+top: 209px;
+font-family: 'poppins';
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #757575;
+}
+.information{
+    position: relative;
+    left: 100px;
+    display: flex;
+    gap:80px;
+    font-family: 'poppins';
+    top:359px;
+}
+.information p{
+    text-align: center;
+    color: #757575;
+}
+.information h1{
+    font-size: 20px;
+}
+
+
+/****************************************************WHAT I DO*********************************/
+
+.title3 h1{
+    position: absolute;
+    width: 100%;
+    top: 1500px;
+    font-family: 'poppins';
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+}
+.title3 p{
+ position: absolute;
+ width: 709px;
+height: 90px;
+left: 395px;
+top: 1585px;
+font-family: 'Dancing Script';
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #757575;
+font-weight: bold;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+/***********************************************CARD1**************************************************/
+.card1{
+position: relative;
+width: 267px;
+height: 377px;
+left: 230px;
+top: 1165px;
+background: #FFFFFF;
+box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+}
+.card1:hover{
+    transform: scale(1.07);
+    transition: 3s;
+}
+.card1 h1{
+position: absolute;
+width: 274px;
+height: 27px;
+left: 30px;
+top:104px;
+font-family: 'poppins';
+font-weight: 700;
+font-size: 20px;
+color: #181818;
+}
+.card1 p{
+ position: absolute;
+width: 241px;
+height: 196px;
+top:151px;
+left: 33px;
+font-family:'Dancing Script';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #757575;
+}
+
+
+/***********************************************CARD2**************************************************/
+.card2{
+    position: relative;
+    width: 267px;
+    height: 377px;
+    left: 150px;
+    top: 1165px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    }
+    .card2:hover{
+        transform: scale(1.07);
+        transition: 3s;
+    }
+    .card2 h1{
+    position: absolute;
+    width: 274px;
+    height: 27px;
+    left: 30px;
+    top:104px;
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    }
+    .card2 p{
+     position: absolute;
+    width: 241px;
+    height: 196px;
+    top:151px;
+    left: 33px;
+    font-family:'Dancing Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    }
+    /***********************************************CARD3**************************************************/
+    .card3{
+        position: relative;
+        width: 267px;
+        height: 377px;
+        left:80px;
+        top: 1165px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.06);
+        border-radius: 5px;
+        }
+        .card3:hover{
+            transform: scale(1.07);
+            transition: 3s;
+        }
+        .card3 h1{
+        position: absolute;
+        width: 274px;
+        height: 27px;
+        left: 30px;
+        top:104px;
+        font-family: 'poppins';
+        font-weight: 700;
+        font-size: 20px;
+        color: #181818;
+        }
+        .card3 p{
+         position: absolute;
+        width: 241px;
+        height: 196px;
+        top:151px;
+        left: 33px;
+        font-family:'Dancing Script';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: #757575;
+        }
+        /***********************************************CARD4**************************************************/
+        .card4{
+            position: relative;
+            width: 267px;
+            height: 377px;
+            left: px;
+            top: 1165px;
+            background: #FFFFFF;
+            box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.06);
+            border-radius: 5px;
+            }
+            .card4:hover{
+                transform: scale(1.07);
+                transition: 3s;
+            }
+            .card4 h1{
+            position: absolute;
+            width: 274px;
+            height: 27px;
+            left: 30px;
+            top:104px;
+            font-family: 'poppins';
+            font-weight: 700;
+            font-size: 20px;
+            color: #181818;
+            }
+            .card4 p{
+             position: absolute;
+            width: 241px;
+            height: 196px;
+            top:151px;
+            left: 33px;
+            font-family:'Dancing Script';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #757575;
+            }
+
+            #img{
+                position: absolute;
+                top:33px;
+                left: 33px;
+            }
+
+
+            /*****************************************************title4***************************/
+
+ .title4 h1{
+position: absolute;
+width: 855px;
+height: 48px;
+left: 373px;
+top: 2372px;
+font-family: 'poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 48px;
+text-align: center;
+color: #181818;
+ }
+ .flex{
+    position: relative;
+    display: flex;
+   top: 1433px;
+ }
+ .title6{
+    position: absolute;
+    top:-50px;
+    left: 230px;
+    font-size: 30px;
+    font-family: 'poppins';
+ }
+ .title7{
+    position: absolute;
+    top:-50px;
+    left: 812px;
+    font-size: 30px;
+    font-family: 'poppins';
+ }
+ .header5 {
+    position: relative;
+    left:230px;
+    font-family: 'poppins';
+    color:#474747;
+ }
+ .para{
+    position: relative;
+    left:230px;
+    width: 511px;
+   height: 84px;
+    font-family: 'poppins';
+    color: #757575;
+ }
+
+ .header6{
+    position: relative;
+    left:312px;
+    font-family: 'poppins';
+    color:#474747;
+ }
+ .para1{
+    position: relative;
+    left:312px;
+    width: 511px;
+   height: 84px;
+    font-family: 'poppins';
+    color: #757575;
+ }
+ .button5 button{
+    position: absolute;
+width: 200px;
+height: 64px;
+left: 700px;
+top: 2899px;
+font-size: 20px;
+background-color: rgb(236, 93, 41);
+border: none;
+ }
+
+
+
+ /******************************************************FOOTER****************************************/
+
+ .footer{
+    position: absolute;
+    width: 100%;
+    height: 377px;
+    overflow-x: hidden;
+    left: 0px;
+    top: 3046.3px;
+    background: #151414;
+}
+    
+    .header8 h1{
+    position: absolute;
+    left: 230px;
+    top: 30.3px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+        }
+    
+        .header8 P{
+    position: absolute;
+    width: 485px;
+    left: 230px;
+    top: 129.3px;
+    font-family: 'Work Sans';
+    font-weight: 300;
+    font-size: 16px;
+    color: #F8F8F8;
+        }
+    
+        .header8 p1{
+            position: absolute;
+    width: 485px;
+    left: 230px;
+    top: 201px;
+    font-family: 'Work Sans';
+    font-weight: 300;
+    font-size: 16px;
+    color: #F8F8F8;
+        }
+    
+    .header8 p2{
+     position: absolute;
+    width: 485px;
+    left: 230px;
+    top: 243px;
+    font-family: 'Work Sans';
+    font-weight: 300;
+    font-size: 16px;
+    color: #F8F8F8;
+    }
+    
+    /**********************************************SOCIAL MEDIA**********************/
+    
+    
+    
+    .social{
+      position: absolute;
+      display: flex; /*******flex= One Dimensional*******/
+      margin-left: 13rem;
+      align-items: center;
+      margin-top: 1900px;
+      font-size: 35px;
+      cursor:pointer;
+      float: left;
+    }
+    
+    .facebook{
+      position: relative;
+      background-color: rgba(0, 0, 0, 0.589);
+      height:60px;
+      width:60px;
+      border-radius: 50%;
+    
+    }
+    .facebook:hover{
+      box-shadow: 1px 1px 10px  #4267B2 , 1px 1px 20px  #4267B2;
+    }
+    .facebook i{
+    position: absolute;
+    left:18px;
+    top:10px;
+      color: #4267B2;
+    }
+    .twitter{
+      position: relative;
+      background-color: rgba(0, 0, 0, 0.589);
+      height:60px;
+      width:60px;
+      border-radius: 50%;
+      margin-left: 2rem;
+    }
+    .twitter i{
+    position: absolute;
+    left:15px;
+    top:10px;
+      color:#1DA1F2;
+    
+    }
+    .twitter:hover{
+      box-shadow: 1px 1px 10px #1DA1F2 , 1px 1px 20px #1DA1F2;
+    }
+    .what{
+      position: relative;
+      background-color:rgba(0, 0, 0, 0.842);
+      height:60px;
+      width:60px;
+      border-radius: 50%;
+      margin-left: 2rem;
+    }
+    .what i{
+      position: absolute;
+      left:17px;
+     top:10px;
+      color:#25D366;
+    }
+    
+    .what:hover{
+      box-shadow: 1px 1px 10px #25D366 , 1px 1px 20px #25D366;
+    }
+    
+    .Youtube{
+      position: relative;
+      background-color: rgba(0, 0, 0, 0.842);
+      height:60px;
+      width:60px;
+      border-radius: 50%;
+      margin-left: 2rem;
+    }
+    .Youtube:hover{
+      box-shadow: 1px 1px 10px red , 1px 1px 20px red;
+    }
+    .Youtube i{
+      position: absolute;
+      left:12px;
+      top:10px;
+      color:red;
+    }
+
+    .header9 h1{
+        position: absolute;
+        left: 909px;
+        top:30px;
+        color:white;
+        font-size: 35px;
+        font-family: 'poppins';
+    }
+    #fname{
+        position: absolute;
+        left: 909px;
+        top:120px;
+        width: 250px;
+        height: 30px;
+        border: none;
+    }
+
+    #email{
+        position: absolute;
+        left: 909px;
+        top:180px;
+        width: 250px;
+        height: 30px;
+        border: none;
+    }
+    .button6{
+        position: absolute;
+        left: 909px;
+        top:250px;
+        width: 150px;
+        height: 64px;
+        border: none;
+        font-size: 20px;
+        font-family: 'poppins';
+        background-color: orangered;
+        color:white;
+        border-radius: 8px;
+        cursor: pointer;
+    }
